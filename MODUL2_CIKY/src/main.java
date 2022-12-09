@@ -19,8 +19,8 @@ public class main{
         System.out.println("Class Kapal");
         kapal kapal1 = new kapal(50, 100000);
         kapal.informasi();
-        sampan.berlayar();
-        sampan.berlayar(int kecepatan);
-        sampan.berlabuh();
+        kapal.berlayar();
+        kapal.berlayar(int kecepatan);
+        kapal.berlabuh();
     }
 }
