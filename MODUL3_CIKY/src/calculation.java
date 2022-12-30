@@ -28,7 +28,6 @@ public static int getTrapezoid() {
 @Override
 public void run() {
     while (true) {
-        calculation();
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
